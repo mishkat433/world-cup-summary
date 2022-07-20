@@ -107,7 +107,7 @@ body {
     height: 312px;
 }
 
-.right button {
+.right a button {
     padding: 20px 30px;
     font-size: 20px;
     background-color: #fff;
@@ -115,6 +115,7 @@ body {
     border: none;
     transition: 0.4s;
     cursor: pointer;
+    width: 100%;
 }
 
 .right button a {
@@ -305,18 +306,6 @@ body {
         height: 340px;
     }
 
-    .view-btn {
-        padding: 10px 30px;
-        font-size: 20px;
-        background-color: #DD0000;
-        border-radius: 10px;
-        width: 15%;
-        color: #fff;
-        text-align: center;
-        margin: 30px auto 0px auto;
-        display: block;
-    }
-
 
     /* header end */
 
@@ -339,10 +328,11 @@ body {
 
     }
 
-    .right button {
+    .right a {
         border: 1px solid lightgray;
-        width: 30%;
         height: 64px;
+        width: 30%;
+        border-radius: 10px;
     }
 
     .cards {
@@ -355,6 +345,18 @@ body {
 
     .hide-card {
         display: none;
+    }
+
+    .view-btn {
+        padding: 10px 30px;
+        font-size: 20px;
+        background-color: #DD0000;
+        border-radius: 10px;
+        width: 15%;
+        color: #fff;
+        text-align: center;
+        margin: 30px auto 0px auto;
+        display: block;
     }
 
     /* mid section end */
@@ -455,7 +457,7 @@ body {
         /* height: 100%; */
     }
 
-    .right button {
+    .right a button {
         border: 1px solid lightgray;
     }
 
@@ -533,3 +535,60 @@ body {
 
 
 /* Mobile responsive end */
+
+
+/* upcoming match start */
+#card-sp {
+    width: 312px;
+    height: 242px;
+    text-align: center;
+}
+
+.card-flag {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.card-info p {
+    color: #4D4D4D;
+}
+
+
+/* german vs franch card responsive start */
+
+/* mobile responsive */
+@media screen and (max-width:688px) {
+
+    #card-sp {
+        width: 100%;
+        height: 242px;
+        text-align: center;
+    }
+
+    .card-flag {
+        margin-top: 20px;
+
+    }
+
+}
+
+/* teblet responsive */
+@media screen and (min-width:689px) and (max-width:992px) {
+
+    #card-sp {
+        width: 100%;
+    }
+
+    .card-flag {
+        margin-top: 20px;
+    }
+
+
+}
+
+/* german vs franch card responsive end */
+
+/* upcoming match end */
