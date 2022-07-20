@@ -36,9 +36,6 @@ body {
     transition: 1s;
 }
 
-.header:hover {
-    transform: scale(1.1);
-}
 
 .header-info {
     margin-left: 106px;
@@ -73,6 +70,7 @@ body {
 
 .header-btn:hover {
     box-shadow: 0px 0px 11px 7px #dd0000;
+    transform: scale(1.1);
 }
 
 
@@ -278,10 +276,6 @@ body {
         overflow: hidden;
     }
 
-    .header:hover {
-        transform: scale(1);
-    }
-
     .header-info {
         margin-left: 76px;
     }
@@ -404,10 +398,6 @@ body {
         height: 100%;
         margin-top: 20px;
         text-align: center;
-    }
-
-    .header:hover {
-        transform: scale(1);
     }
 
     .header-info {
